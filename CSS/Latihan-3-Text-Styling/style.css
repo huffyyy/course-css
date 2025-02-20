@@ -1,0 +1,14 @@
+h1{
+  font-size: 150px;
+  color: #b5f46d;
+  text-decoration: underline;
+  text-transform: lowercase;
+}
+
+p{
+  text-indent : 20px;
+  text-transform: capitalize;
+  word-spacing : 5px
+}
+
+a {text-decoration: none;}
