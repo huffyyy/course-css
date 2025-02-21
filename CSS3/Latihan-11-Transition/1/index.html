@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transition Part 1</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+        .container{
+            width: 900px;
+            margin: 10px auto;
+            border: 10px solid black;
+
+        }        
+        .kotak {
+            width: 200px;
+            height: 200px;
+            background-color: magenta;
+            transition: margin-left 10s ;
+        }
+        .container:hover .kotak{
+            transform: rotate(45deg);
+            margin-left: 800px;
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="kotak"> </div>
+    </div>
+    
+</body>
+</html>

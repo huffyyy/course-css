@@ -1,0 +1,181 @@
+/*font*/
+@font-face {
+    font-family: 'inter';
+    src: url(../fonts/Inter-Regular.woff) format ('woff'); 
+}
+
+/* style utama */
+body{
+     font: 18px/36px 'inter', 'arial narrow', arial, sans-serif;      
+     background-color: #eaeaea 
+}
+
+h1 {
+    font-size: 60px;
+    margin: 25px 50px 50px;
+    text-align: center;
+    text-shadow: 1px 1px 2px white ;
+    font-weight: bold;
+}
+
+.container {
+    width: 980px;
+    background-color: white;
+    margin: 50px auto;
+    padding: 20px;
+    box-shadow: 0 0 20px 3px rgb(0 0 0 / 15%);
+    border-radius: 5px;
+}
+
+.gallery li {
+    width: 120px;
+    height: 120px;
+    overflow: hidden;
+    border: 5px solid #434343;
+    float: left;
+    margin-right: 10px;
+    position: relative;
+}
+
+.gallery li a img,
+.gallery li,
+.gallery li span {
+    border-radius: 50%;
+}
+
+.gallery li span {
+    display: block;
+    width: 120px;
+    height: 120px;
+    background-color: #ffffffa8;
+    position: absolute;
+    top: 0;
+    text-align: center;
+    line-height: 120px;
+    color: #333;
+    text-shadow: 1px 1px 1px #ddd;
+    opacity: 0;
+    transition: 0.4s;
+    font-size: 19px;
+    font-weight: 600;
+    transition: .2s;
+    transform: scale(0) rotate(0);
+}
+
+.gallery li a:hover span {
+    opacity: 1;
+    transform: scale(1);
+}
+.clear {
+    clear: both;
+} 
+
+/* overlay */
+
+.overlay {
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0);
+    z-index: 9999999999;
+    transition: .5s;
+    text-align: center;
+    padding: 100px;
+}
+
+.overlay:target {
+    width: auto;
+    height: auto;
+
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, .8);
+}
+
+.overlay img {
+    max-height: 100%;
+    box-shadow: 0 0 18px 0px;
+    border-radius: 28px;
+}
+
+.overlay:target img {
+    animation: fade 1s;
+}
+
+.overlay .close {
+    position: absolute;
+    top: 50px;
+    left: 62%;
+    margin-left: -20px;
+    color: white;
+    text-decoration: none;
+    background-color: black;
+    border: 1px solid white;
+    line-height: 14px;
+    padding: 10px;
+    border-radius: 18px;
+    opacity: 0; 
+}
+
+.overlay:target .close {
+    animation: slidedown .5s .5s forwards;
+}
+
+.overlay:target .next, 
+.overlay:target .prev{
+    animation: fade .5s .5s forwards;
+}
+
+/* navigasi */
+.next, .prev {
+    width: 57px;
+    height: 93px;
+    background-image: url(../img/panahkanan.png);
+    position: absolute;
+    text-indent: -99999px;
+    margin-left: 50px;
+    top: 40%;
+    opacity: 0;
+    
+}
+
+.prev {
+    background-image: url(../img/panahkiri.png);
+    margin-left: -100px;
+}
+
+/* animasi */
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+    100% {opacity: 1;
+    }
+}
+
+@keyframes zoomfade {
+    0% {
+        transform: scale(0);
+        opacity: 0;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+@keyframes slidedown {
+    0% {
+        opacity: 0;
+        margin-top: -20px;
+    }
+
+    100%{
+        opacity: 1;
+        margin-top: 1;
+    }
+}
