@@ -1,0 +1,200 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+	/*Style*/
+
+body {
+	font: 16px/28px arial, sans-serif;
+	background-color: #eaeaea;
+	background-image: url(img/leaves.webp);
+	color: 333;
+}
+
+.top {
+	position: fixed;
+	height: 40px;
+	z-index: 9999;
+	left: 0;
+	top: 0;
+	right: 0;
+	background-color: #2880a3;
+	border-bottom: 5px solid #8edfff;
+}
+.container {
+	width: 960px;
+	margin: auto;
+	background-color: #fff;
+	border: 3px solid #2880a3;
+	margin: 80px auto;
+	border-radius: 16px;
+	position: relative;
+	box-shadow: rgba(0, 0, 0, 0.25) 0px 15px 10px, rgba(0, 0, 0, 0.12) 0px -10px 15px, rgba(0, 0, 0, 0.10) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+
+.twitter {
+	width: 200px;
+	height: 200px;
+	display: inline-block;
+	text-indent: -9999px;
+	position: absolute;
+	top: -18px;
+	right: -90px;
+	background-repeat: no-repeat;
+	background-image: url(img/twitter.png)
+}	
+
+.header {
+	padding: 20px;
+	padding-bottom: 10px;
+}
+
+.header .judul {
+	font-size: 48px;
+	font-weight: bold;
+	color: #141414;
+}
+
+.header ul li {
+	display: inline-block;
+	margin-top: 20px;
+	margin-right: 10px;
+}
+
+.header a {
+	text-decoration: none;
+	color: #2880a3;
+	padding: 4px;
+}
+
+.header a:hover {
+	background-color: salmon;
+	color: white;
+}
+
+.hero {
+	height: 280px;
+	background-image: url(img/hero.png);
+	background-size: cover;
+	background-position: 0 -175px;
+	border-top: 3px solid #2880a3;
+	border-bottom: 3px solid #2880a3;
+}
+
+.main {
+	width: 600px;
+	float: left;
+	padding: 20px;
+	box-sizing: border-box;
+}
+
+.main h2 {
+	font-size: 32px;
+	font-weight: bold;
+}
+
+.main .penulis a {
+	color: #4fa165;
+	text-decoration: none;
+}
+
+.main .penulis {
+	font-size: 16px;
+	margin-top: 5px
+}
+.main p 	{
+	margin-bottom: 20px;
+	font-size: 14px;
+}
+
+.sidebar {
+	width: 300px;
+	padding: 20px;
+	float: right;
+}
+
+.sidebar h3{
+	font-weight: bold;
+	color: #141414;
+}
+
+.sidebar img {
+	width: 100px;
+	height: 100px;
+	float: left;
+	padding-right: 10px;
+	border-radius: 16px;
+}
+
+.sidebar p {
+	font : 14px/18px arial;
+}
+
+.footer {
+	background-color: #333;
+	padding: 10px;
+	border-bottom-left-radius:14px;
+	border-bottom-right-radius:14px;
+}
+
+.footer .copy {
+	color: #eaeaea;
+	text-align: center;
+	font-size: 16px;
+}
+
+
+/* clearfix */
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+.cf {
+    zoom: 1;
+}
