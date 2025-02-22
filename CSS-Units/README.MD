@@ -19,3 +19,8 @@ Repository ini berisi kumpulan latihan yang membahas berbagai jenis satuan ukura
 - Memahami berbagai jenis satuan di CSS dan penggunaannya  
 - Mampu mengatur ukuran elemen dan layout dengan satuan yang tepat  
 - Membuat desain web yang responsif menggunakan viewport units dan satuan relatif  
+
+## 📚 Referensi
+- https://www.youtube.com/playlist?list=PLFIM0718LjIWon_W_QTK3UMzE-tFvOhaq
+
+- 
