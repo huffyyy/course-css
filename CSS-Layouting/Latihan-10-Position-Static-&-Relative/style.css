@@ -1,0 +1,21 @@
+div {
+    width: 200px;
+    height: 200px;
+}
+
+.satu {
+    background-color: aquamarine;
+}
+
+.dua {
+    background-color: burlywood;
+    position: relative;
+    right: 30px;
+    bottom: 20px    ;
+}
+
+.tiga {
+    background-color: gold;
+    position: static;
+    left: 30px;
+}
