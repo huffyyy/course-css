@@ -1,0 +1,37 @@
+MARGIN
+
+- Cara pakai
+
+margin-top
+margin-right
+margin-bottom
+margin-left
+
+- Overlapping margin
+margin yang bertumpuk
+->vertikal
+margin yang paling besar yang akan menang(diambil)
+contoh= jika div 1 margin bottom 100px makan div 2 yang ada dibawahnya
+yang mempunyai margin top 20 px tidak akan mengubah apapun
+
+->horizontal
+margin elemen satu dan dua yang overlapping akan ditambahkan
+contoh= jika div 1 margin right 20px dan div 2 margin left 20px maka 
+margin nya akan berjarak 40px
+
+- Negatif Margin
+membuat kotak akan berlawanan arah
+dan elemen elemen yang dibawahnya akan terbawa
+
+- Auto
+khusus untuk margin kiri dan kanan
+otomatis elemen berada di tengah tengah dari parent
+
+- Shorthand
+menyingkat penulisan margin
+bisa memuat banyak nilai dengan satu sintaks
+1 nilai= margin 50 px -> semua sisi diberi margin 50 px
+2 nilai= margin 50px 100px -> atas dan bawah 50
+			      kiri dan kanan 100
+3 nilai= margin 30px 50px 40px -> atas, kiri kanan, bawah
+4 nilai= margin 20px 10px 60px 70px -> atas,kanan,bawah,kiri(searah jarum jam)
