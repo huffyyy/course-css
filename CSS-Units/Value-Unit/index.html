@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Value & Unit</title>
+    <style>
+         /* em = Relatif terhadap ukuran font yang sedang digunakann */
+        /* rem = Relatif terhdap ukuran font "root"/<html> */
+        .box{
+            font-size: 30px;
+            background-color: lightblue;
+            height: 100vmin;
+            width: 100vmin;
+        }
+        
+        .box h1  {
+            font-size: 1rem; /* 1rem x 30 = 30px */
+        }
+
+        .box p {
+            font-size: 2em; /* 2em x 30 = 60px */
+        }
+
+        /* relatif terhadap lebar karakter '0' dari font yang sedang digunakan */
+
+        .p {
+            width: 60ch;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h1>hello world</h1>
+        <p>Husnul Fikri</p>
+    </div>
+    <div class="p">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque voluptate sapiente non dicta aut expedita aspernatur, praesentium qui quaerat iusto similique harum inventore iste, cum beatae. Facere sapiente qui quis?</p>
+    </div>
+</body>
+</html>
