@@ -23,4 +23,4 @@ Repository ini berisi kumpulan latihan yang membahas berbagai jenis satuan ukura
 ## 📚 Referensi
 - https://www.youtube.com/playlist?list=PLFIM0718LjIWon_W_QTK3UMzE-tFvOhaq
 
-- 
+- ![image 1](https://github.com/user-attachments/assets/60d0b60c-0ad1-40be-bfd4-9e180416f413)
