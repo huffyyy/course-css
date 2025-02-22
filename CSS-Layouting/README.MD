@@ -35,4 +35,4 @@ Repository ini berisi kumpulan latihan untuk memahami konsep dasar hingga lanjut
 ## 📚 Referensi
 - https://www.youtube.com/playlist?list=PLFIM0718LjIVuONHysfOK0ZtiqUWvrx4F
 
-- 
+- ![image 31](https://github.com/user-attachments/assets/a3d28288-c2e9-429b-a0dc-c998f843607a)
