@@ -23,3 +23,8 @@ Repository ini berisi kumpulan latihan dan materi mengenai dasar-dasar **CSS** u
 - Menguasai konsep dasar CSS untuk membangun tampilan web  
 - Memahami cara styling elemen HTML dengan benar dan efisien  
 - Siap melangkah ke konsep lanjutan seperti Flexbox dan Grid  
+
+## 📚 Referensi
+- https://www.youtube.com/playlist?list=PLFIM0718LjIVuONHysfOK0ZtiqUWvrx4F
+
+- ![image 31](https://github.com/user-attachments/assets/8548e04f-a5bb-4547-966f-fa35b590cafb)
