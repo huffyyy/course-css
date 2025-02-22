@@ -29,3 +29,9 @@ Repository ini berisi kumpulan latihan dan materi mengenai fitur-fitur lanjutan 
 - Menguasai fitur-fitur lanjutan di **CSS3**  
 - Membuat tampilan web yang lebih menarik dan dinamis  
 - Memahami cara kerja animasi dan transisi dalam CSS 
+
+## 📚 Referensi
+- https://www.youtube.com/playlist?list=PLFIM0718LjIVCmrSWbZPKCccCkfFw-Naa
+
+- ![image 31](https://github.com/user-attachments/assets/ed9f1cc3-008a-4683-ab3e-062a8f6b4d0d)
+
