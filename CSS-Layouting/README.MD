@@ -31,3 +31,8 @@ Repository ini berisi kumpulan latihan untuk memahami konsep dasar hingga lanjut
 - Menguasai teknik layouting dasar menggunakan **CSS**  
 - Memahami konsep box model, positioning, float, dan clear  
 - Mampu membangun layout sederhana tanpa framework 
+
+## 📚 Referensi
+- https://www.youtube.com/playlist?list=PLFIM0718LjIVuONHysfOK0ZtiqUWvrx4F
+
+- 
