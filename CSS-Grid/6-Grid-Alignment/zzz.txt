@@ -1,1 +1,7 @@
+Justify = Sumbu Horizontal
+Align = Sumbu Vertikal
 
+Item = Item
+Content = Grid
+
+Place Items/Content = shorthand untuk menulis justify/align dalam satu deklarasi
