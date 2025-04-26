@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The North Face</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz@14..32&family=Montserrat:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <header class="header">
+            <div class="hero">
+                <h2 class="heading">The North Face</h2>
+                <h2 class="sub-heading">Never Stop Exploring.</h2>
+            </div>
+            <div class="features feature-1">
+                <h4 class="text">Stroms happen. 
+                    <br>Antora</h4>
+            </div>
+            <div class="features feature-2">
+                <h4>We play different.</h4>
+            </div>
+        </header>
+
+        <nav class="menu">
+            <div class="menu-toggle">
+                <input type="checkbox">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="brand">The North Face
+            </div>
+            <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">Products</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Gallery</a></li>
+            </ul>
+        </nav>
+        <br>
+        <section class="services">
+            <div class="service">
+                <h3>Jackets</h3>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro, animi!</p>
+                <br>
+            </div>
+            <div class="service">
+                <h3>Backpacks</h3>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro, animi!</p>
+                <br>
+            </div>
+            <div class="service">
+                <h3>Footwear</h3>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro, animi!</p>
+                <br>
+            </div>
+            <div class="service">
+                <h3>Summit Series</h3>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro, animi!</p>
+                <br>
+            </div>
+        </section>
+        <br>
+        <section class="gallery">
+            <h2>Gallery</h2>
+            <img src="img/1.jpeg" alt="">
+            <img src="img/2.jpeg" alt="">
+            <img src="img/3.jpeg" alt="">
+            <img src="img/4.jpeg" alt="">
+            <img src="img/5.jpeg" alt="">
+            <img src="img/6.jpeg" alt="">
+        </section>
+    </div>
+
+    <script>
+        const menuToggle = document.querySelector('.menu-toggle input');
+const nav = document.querySelector('nav ul');
+
+menuToggle.addEventListener('click', function(){
+    nav.classList.toggle('slide');
+})
+    </script>
+</body>
+</html>
